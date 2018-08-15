@@ -6,6 +6,8 @@ configuration MyConfig03 {
     Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
 	Import-DscResource -ModuleName 'xWinEventLog'
 
+    # Just some test bits...
+    
     Node $Server {
         Registry SetRegistry
         {
