@@ -7,7 +7,8 @@ configuration MyConfig03 {
 	Import-DscResource -ModuleName 'xWinEventLog'
 
     # Just some test bits...
-    
+    # more bits...
+
     Node $Server {
         Registry SetRegistry
         {
